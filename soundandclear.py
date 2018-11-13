@@ -41,7 +41,7 @@ class ada():
             
         
 
-
-a = ada()
-a.rules()
-a.teks()
+if __name__=="__main__":
+    a = ada()
+    a.rules()
+    a.teks()
